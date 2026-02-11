@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow all HTTPS connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- Allow cleartext traffic for Supabase storage if needed -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">supabase.co</domain>
+        <domain includeSubdomains="true">ioyzxwwufxciplqwvmyh.supabase.co</domain>
+    </domain-config>
+    
+    <!-- Ensure backend domains are allowed -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">lets-connect-sooty.vercel.app</domain>
+        <domain includeSubdomains="true">ably.io</domain>
+        <domain includeSubdomains="true">realtime.ably.io</domain>
+    </domain-config>
+</network-security-config>
