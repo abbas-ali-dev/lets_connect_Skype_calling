@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823755493802",
+    "project_id": "lets-connect-d7fe0",
+    "storage_bucket": "lets-connect-d7fe0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823755493802:android:a5875d080f2c733826dbd3",
+        "android_client_info": {
+          "package_name": "com.codeautomation.lets_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJAiSlCkAkLwe46DSjZ9RZuKS8_dKgn8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
